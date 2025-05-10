@@ -1,0 +1,25 @@
+{
+  "name": "element-matches",
+  "version": "0.1.2",
+  "description": "Super small `Element.matches` fix for older browsers (IE 9+, Edge 12+, Safari, Android browsers)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jelmerdemaat/element-matches.git"
+  },
+  "keywords": [
+    "element",
+    "matches",
+    "match",
+    "polyfill"
+  ],
+  "author": "Jelmer de Maat",
+  "license": "MIT (https://jelmer.mit-license.org/)",
+  "bugs": {
+    "url": "https://github.com/jelmerdemaat/element-matches/issues"
+  },
+  "homepage": "https://github.com/jelmerdemaat/element-matches#readme"
+}
